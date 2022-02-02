@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <h2>using of string java SCRipt></h2>
+
+    <p id="demo"></p>
+
+    <script>
+
+        function userList() {
+
+            let company = [{ "name": "raja", "age": 21 },
+
+            { "name": "arbaj", "age": 20 },
+
+            { "name": "shahbaj", "age": 27 }
+
+            ];
+
+            // console.log(company[0].name);
+            // console.log(company[0].age);
+
+            let companyLenght = company.length;
+
+            for (let i = 0; i < company.length; i++) {
+                const element = company[i];
+
+            }
+            console.log(company[0]);
+            alert(company.length);
+        }
+
+        userList();
+
+
+
+
+
+
+
+    </script>
+
+</body>
+
+</html>
